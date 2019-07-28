@@ -10,6 +10,7 @@
 #include <math.h>
 #include "fluid.hpp"
 
+// The goal of this branch is to get rid of this:
 #define IX(x, y, z) ((x) + (y) * N + (z) * N * N) 
 
 using namespace std;
